@@ -2,29 +2,28 @@ import React, { Component } from "react";
 import './App.css';
 import {fetchData} from './utils/Api'
 import {parsSales} from './utils/Tools'
+import Table from './utils/table'
 
 
 
 const getInfo = async (login, pass, card) =>  await parsSales(await fetchData(login, pass, card));
 const cardIndex = 0;
 const salesIndex = 1;
-const  ListItem = (props) => 
-{
-    return <h style={{ color: 'green' }}>{props.value}</h>;
-}
+
 const divStyle = {
     width: 350, 
     background: "#31d3fa",
     border: "solid", 
     "margin-left": "36%",
   };
-  const buttonStyle = {
-    
- 
-    "margin-left": "36%",
+  const tableStyle = { 
+    width: 430,
+    background: "#e8f0fe",
+    border: "solid", 
+    "margin-left": "33%",
   };
-  
-
+  const buttonStyle = {"margin-left": "36%"};
+ 
 class InputCreds extends Component 
 {
     constructor(){
@@ -58,21 +57,11 @@ class InputCreds extends Component
         if (this.state.cardInfo[0] === false) return(<div>{this.state.cardInfo[1]}</div>);
         const array = this.state.cardInfo[salesIndex];
          return(
-            <div>
-                {
-                array.map((item) => {
-                return <ul>
-                    <ListItem value={`
-                    Дата операции - ${item.date} 
-                    Сумма чека - ${item.amount} 
-                    Накопленно бонусов - ${item.charge} 
-                    Списано бонусов - ${item.write}`}/> 
-                    </ul>
-                }
-                )}
-            </div>
+            <div style = {tableStyle}>
+                <p className="Table-header" Align="center" >Движение бонусов</p>
+                <Table data={array}/>
+            </div> 
         )
-        
     }
     cardInfoDraw(props){
         

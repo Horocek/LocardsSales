@@ -5,7 +5,7 @@ const timeConverter = unixTime => {
       '10', '11', '12'
   ];
   const date = new Date(unixTime * 1000);
-  return `${date.getDate()}-${months[date.getMonth()]}-${date.getFullYear()} / ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+  return `${date.getDate()}-${months[date.getMonth()]}-${date.getFullYear()}`;
 }
 const salesPars = array => {
   return array.map((item) => {
