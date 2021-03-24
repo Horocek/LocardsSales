@@ -4,6 +4,7 @@ import {fetchData} from './utils/Api'
 import {parsSales} from './utils/Tools'
 
 
+
 const getInfo = async (login, pass, card) =>  await parsSales(await fetchData(login, pass, card));
 const cardIndex = 0;
 const salesIndex = 1;
@@ -11,7 +12,18 @@ const  ListItem = (props) =>
 {
     return <h style={{ color: 'green' }}>{props.value}</h>;
 }
-
+const divStyle = {
+    width: 350, 
+    background: "#31d3fa",
+    border: "solid", 
+    "margin-left": "36%",
+  };
+  const buttonStyle = {
+    
+ 
+    "margin-left": "36%",
+  };
+  
 
 class InputCreds extends Component 
 {
@@ -46,19 +58,19 @@ class InputCreds extends Component
         if (this.state.cardInfo[0] === false) return(<div>{this.state.cardInfo[1]}</div>);
         const array = this.state.cardInfo[salesIndex];
          return(
-            <ul>
+            <div>
                 {
                 array.map((item) => {
                 return <ul>
                     <ListItem value={`
                     Дата операции - ${item.date} 
-                    сумма чека - ${item.amount} 
-                    накопленно бонусов - ${item.charge} 
-                    списано бонусов - ${item.write}`}/> 
+                    Сумма чека - ${item.amount} 
+                    Накопленно бонусов - ${item.charge} 
+                    Списано бонусов - ${item.write}`}/> 
                     </ul>
                 }
                 )}
-            </ul>
+            </div>
         )
         
     }
@@ -67,12 +79,12 @@ class InputCreds extends Component
         if (this.state.cardInfo[0] === false) return(<div></div>);
         const card = this.state.cardInfo[cardIndex];
          return(
-            <div>
+            <div style={divStyle}>
                 Владелец карты : {card.lastName} {card.firstName}<br></br>
                 День рождения : {card.birthday}<br></br>
                 Телефон : {card.phone}<br></br>
                 Баланс : {card.balance}<br></br>
-                Кешбек : {card.cashback}% <br></br>
+                Кэшбек : {card.cashback}% <br></br>
                 Скидка : {card.discount}%<br></br>
             </div>
         )
@@ -81,32 +93,34 @@ class InputCreds extends Component
     
 
     inputForm(){
-         return(
-            <form>
+        return(
+        <form style = {divStyle}>
             <label>
-              Логин:
-              <input type="text" name="login" onChange={this.handleChange}/><br></br><br></br>
-              Пароль:
-              <input type="text" name='pass' onChange={this.handleChange} /><br></br><br></br>
-              Номер карты:
-              <input type="text" name='card' onChange={this.handleChange} /><br></br><br></br>
+                Логин:
+                <input type="text" name="login" onChange={this.handleChange}/><br></br><br></br>
+                Пароль:
+                <input type="text" name='pass' onChange={this.handleChange} /><br></br><br></br>
+                Номер карты:
+                <input type="text" name='card' onChange={this.handleChange} /><br></br><br></br>
             </label>
-          </form>
+        </form>
         )   
     }
     render() {
         
         return (
-            <div> 
-            <button onClick = { 
+            <div>
+            {this.inputForm()}<br></br>
+            <button style = {buttonStyle} onClick = { 
                 async () => {
                 await this.buttonGetSales();
                 }
-            }> Получить </button><br></br><br></br><br></br><br></br>
-           {this.inputForm()}
-           {this.cardInfoDraw()}
+            }> Получить продажи</button><br></br><br></br>
+           
+           {this.cardInfoDraw()}<br></br><br></br>
            {this.salesDraw()}
-        </div>
+           </div>
+           
         );
     }
 }  
