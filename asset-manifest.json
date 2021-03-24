@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LocardsSales/static/css/main.5f361e03.chunk.css",
-    "main.js": "/LocardsSales/static/js/main.a8556f84.chunk.js",
-    "main.js.map": "/LocardsSales/static/js/main.a8556f84.chunk.js.map",
+    "main.js": "/LocardsSales/static/js/main.804ab9e0.chunk.js",
+    "main.js.map": "/LocardsSales/static/js/main.804ab9e0.chunk.js.map",
     "runtime-main.js": "/LocardsSales/static/js/runtime-main.eadfe92c.js",
     "runtime-main.js.map": "/LocardsSales/static/js/runtime-main.eadfe92c.js.map",
     "static/js/2.9b37f83b.chunk.js": "/LocardsSales/static/js/2.9b37f83b.chunk.js",
     "static/js/2.9b37f83b.chunk.js.map": "/LocardsSales/static/js/2.9b37f83b.chunk.js.map",
     "index.html": "/LocardsSales/index.html",
-    "precache-manifest.591671e11e6189669708c9e0ab7ec1d9.js": "/LocardsSales/precache-manifest.591671e11e6189669708c9e0ab7ec1d9.js",
+    "precache-manifest.c7aa934edf292393ba3fe8aa4e6272e2.js": "/LocardsSales/precache-manifest.c7aa934edf292393ba3fe8aa4e6272e2.js",
     "service-worker.js": "/LocardsSales/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/LocardsSales/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.9b37f83b.chunk.js.LICENSE.txt": "/LocardsSales/static/js/2.9b37f83b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.eadfe92c.js",
     "static/js/2.9b37f83b.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a8556f84.chunk.js"
+    "static/js/main.804ab9e0.chunk.js"
   ]
 }
