@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/LocardsSales/static/css/main.5f361e03.chunk.css",
-    "main.js": "/LocardsSales/static/js/main.300a2d22.chunk.js",
-    "main.js.map": "/LocardsSales/static/js/main.300a2d22.chunk.js.map",
+    "main.css": "/LocardsSales/static/css/main.558d7d39.chunk.css",
+    "main.js": "/LocardsSales/static/js/main.31a93ca4.chunk.js",
+    "main.js.map": "/LocardsSales/static/js/main.31a93ca4.chunk.js.map",
     "runtime-main.js": "/LocardsSales/static/js/runtime-main.eadfe92c.js",
     "runtime-main.js.map": "/LocardsSales/static/js/runtime-main.eadfe92c.js.map",
     "static/css/2.b47ae72f.chunk.css": "/LocardsSales/static/css/2.b47ae72f.chunk.css",
     "static/js/2.4ed8986b.chunk.js": "/LocardsSales/static/js/2.4ed8986b.chunk.js",
     "static/js/2.4ed8986b.chunk.js.map": "/LocardsSales/static/js/2.4ed8986b.chunk.js.map",
     "index.html": "/LocardsSales/index.html",
-    "precache-manifest.9c5d83d6d0c4f373a085ef8427f7e6b6.js": "/LocardsSales/precache-manifest.9c5d83d6d0c4f373a085ef8427f7e6b6.js",
+    "precache-manifest.fcaae2f56a5f59b25109d70f8fbabe32.js": "/LocardsSales/precache-manifest.fcaae2f56a5f59b25109d70f8fbabe32.js",
     "service-worker.js": "/LocardsSales/service-worker.js",
     "static/css/2.b47ae72f.chunk.css.map": "/LocardsSales/static/css/2.b47ae72f.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/LocardsSales/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.558d7d39.chunk.css.map": "/LocardsSales/static/css/main.558d7d39.chunk.css.map",
     "static/js/2.4ed8986b.chunk.js.LICENSE.txt": "/LocardsSales/static/js/2.4ed8986b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eadfe92c.js",
     "static/css/2.b47ae72f.chunk.css",
     "static/js/2.4ed8986b.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.300a2d22.chunk.js"
+    "static/css/main.558d7d39.chunk.css",
+    "static/js/main.31a93ca4.chunk.js"
   ]
 }
