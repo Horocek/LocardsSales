@@ -1,11 +1,12 @@
 const fetchData = async (login, pass, card) => {
     const autorized =  await loginUser(login, pass);
-    if (!autorized) return [false, "Не верный логин/пароль"];
+    if (!autorized) return [false, "НЕ ВЕРНЫЙ ЛОГИН/ПАРОЛЬ"];
     const crmToken = await getCrmToken(autorized)
     const cardInfo = await getCard(crmToken, card)
-    if (!cardInfo) return [false, "карта не найдена"];
+    if (!cardInfo) return [false, "КАРТА НЕ НАЙДЕНА"];
     const sales = await getSales(cardInfo.id, autorized);
-    if (!sales) return [false, "нет продаж"];
+    //if (!sales && cardInfo) return [true, cardInfo];
+    if (!sales) return [false,"НЕТ ПРОДАЖ"];
     return [cardInfo, sales];
 };
 

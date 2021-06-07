@@ -1,3 +1,5 @@
+
+
 const timeConverter = unixTime => {
   const months = ['01', '02', '03',
       '04', '05', '06',
@@ -13,8 +15,10 @@ const salesPars = array => {
           amount: item.amount,
           write: item.bonusesWriteOff,
           charge: item.bonusesCharge,
-          date: timeConverter(item.createdAt)
-      }
+          date: timeConverter(item.createdAt),
+          isCanceled: item.isCanceled ? "отменена" : "проведена"
+      } 
+    
   });
 }
 
@@ -23,6 +27,7 @@ const parsSales = (data) =>{
 data[1] = salesPars(data[1]);
 return data;
 }
+
 
 
 export {parsSales};

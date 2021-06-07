@@ -9,6 +9,7 @@ const logoStyle = {
   "margin-left": "36%",
 };
 
+
 ReactDOM.render(
   <React.StrictMode>
     <img src={logo} alt={"logo"} style = {logoStyle}/> 

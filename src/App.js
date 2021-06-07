@@ -17,10 +17,10 @@ const divStyle = {
     "margin-left": "36%",
   };
   const tableStyle = { 
-    width: 430,
+    width: 530,
     background: "#e8f0fe",
     border: "solid", 
-    "margin-left": "33%",
+    "margin-left": "30%",
   };
   const buttonStyle = {"margin-left": "36%"};
  
@@ -52,8 +52,9 @@ class InputCreds extends Component
         this.setState({cardInfo : await getInfo(this.state.login, this.state.pass, this.state.card)})
     }
 
+
     salesDraw(props){
-        
+     
         if (this.state.cardInfo[0] === false) return(<div>{this.state.cardInfo[1]}</div>);
         const array = this.state.cardInfo[salesIndex];
          return(
@@ -64,10 +65,9 @@ class InputCreds extends Component
         )
     }
     cardInfoDraw(props){
-        
-        if (this.state.cardInfo[0] === false) return(<div></div>);
         const card = this.state.cardInfo[cardIndex];
-         return(
+        if (this.state.cardInfo[0] === false) return(<div></div>);
+        return(
             <div style={divStyle}>
                 Владелец карты : {card.lastName} {card.firstName}<br></br>
                 День рождения : {card.birthday}<br></br>
