@@ -6,6 +6,8 @@ import Table from './utils/table'
 
 
 
+
+
 const getInfo = async (login, pass, card) =>  await parsSales(await fetchData(login, pass, card));
 const cardIndex = 0;
 const salesIndex = 1;
@@ -15,12 +17,18 @@ const divStyle = {
     background: "#31d3fa",
     border: "solid", 
     "margin-left": "36%",
+    "border-radius": "11px 11px 11px 11px",
+
+    transform: "skew(0deg)"
   };
   const tableStyle = { 
     width: 530,
     background: "#e8f0fe",
     border: "solid", 
     "margin-left": "30%",
+    "border-radius": "15px 15px 15px 16px",
+    "background-color": "#cccccc",
+    transform: "skew(0deg)"
   };
   const buttonStyle = {"margin-left": "36%"};
  
@@ -98,7 +106,7 @@ class InputCreds extends Component
     render() {
         
         return (
-            <div>
+            <div stile>
             {this.inputForm()}<br></br>
             <button style = {buttonStyle} onClick = { 
                 async () => {
