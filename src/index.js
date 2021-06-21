@@ -10,6 +10,7 @@ const logoStyle = {
   "margin-left": "1%",
   "margin-top": "1%",
   width: 360, 
+  "border-radius": "15px 15px 15px 16px",
 };
 const divStyle = {
   width: 370, 
