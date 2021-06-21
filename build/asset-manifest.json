@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LocardsSales/static/css/main.08d044d5.chunk.css",
-    "main.js": "/LocardsSales/static/js/main.8ce4945c.chunk.js",
-    "main.js.map": "/LocardsSales/static/js/main.8ce4945c.chunk.js.map",
+    "main.js": "/LocardsSales/static/js/main.28a14c9b.chunk.js",
+    "main.js.map": "/LocardsSales/static/js/main.28a14c9b.chunk.js.map",
     "runtime-main.js": "/LocardsSales/static/js/runtime-main.eadfe92c.js",
     "runtime-main.js.map": "/LocardsSales/static/js/runtime-main.eadfe92c.js.map",
     "static/css/2.b47ae72f.chunk.css": "/LocardsSales/static/css/2.b47ae72f.chunk.css",
     "static/js/2.4ed8986b.chunk.js": "/LocardsSales/static/js/2.4ed8986b.chunk.js",
     "static/js/2.4ed8986b.chunk.js.map": "/LocardsSales/static/js/2.4ed8986b.chunk.js.map",
     "index.html": "/LocardsSales/index.html",
-    "precache-manifest.0f4ab7fb2d655d2459215934b91ddb4d.js": "/LocardsSales/precache-manifest.0f4ab7fb2d655d2459215934b91ddb4d.js",
+    "precache-manifest.89aa4477e8d8dad48ae65a2b58d2c4cc.js": "/LocardsSales/precache-manifest.89aa4477e8d8dad48ae65a2b58d2c4cc.js",
     "service-worker.js": "/LocardsSales/service-worker.js",
     "static/css/2.b47ae72f.chunk.css.map": "/LocardsSales/static/css/2.b47ae72f.chunk.css.map",
     "static/css/main.08d044d5.chunk.css.map": "/LocardsSales/static/css/main.08d044d5.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.b47ae72f.chunk.css",
     "static/js/2.4ed8986b.chunk.js",
     "static/css/main.08d044d5.chunk.css",
-    "static/js/main.8ce4945c.chunk.js"
+    "static/js/main.28a14c9b.chunk.js"
   ]
 }
