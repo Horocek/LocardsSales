@@ -76,13 +76,14 @@ class InputCreds extends Component
         const card = this.state.cardInfo[cardIndex];
         if (this.state.cardInfo[0] === false) return(<div></div>);
         return(
-            <div style={divStyle}>
-                Владелец карты : {card.lastName} {card.firstName}<br></br>
-                День рождения : {card.birthday}<br></br>
-                Телефон : {card.phone}<br></br>
-                Баланс : {card.balance}<br></br>
-                Кэшбек : {card.cashback}% <br></br>
-                Скидка : {card.discount}%<br></br>
+            <div style={divStyle}><br></br>
+                &nbsp; &nbsp;Владелец карты : {card.lastName} {card.firstName}<br></br>
+                &nbsp; &nbsp;День рождения : {card.birthday}<br></br>
+                &nbsp; &nbsp;Телефон : {card.phone}<br></br>
+                &nbsp; &nbsp;Баланс : {card.balance}<br></br>
+                &nbsp; &nbsp;Кэшбек : {card.cashback}% <br></br>
+                &nbsp; &nbsp;Скидка : {card.discount}%<br></br>
+                <br></br>
             </div>
         )
         
@@ -92,12 +93,12 @@ class InputCreds extends Component
     inputForm(){
         return(
         <form style = {divStyle}>
-            <label>
-                Логин:
+            <label><br></br>
+             &nbsp; &nbsp;Логин:
                 <input type="text" name="login" onChange={this.handleChange}/><br></br><br></br>
-                Пароль:
+                &nbsp; &nbsp;Пароль:
                 <input type="text" name='pass' onChange={this.handleChange} /><br></br><br></br>
-                Номер карты:
+                &nbsp; &nbsp;Номер карты:
                 <input type="text" name='card' onChange={this.handleChange} /><br></br><br></br>
             </label>
         </form>
