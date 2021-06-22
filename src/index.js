@@ -1,3 +1,5 @@
+
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -5,31 +7,19 @@ import {InputCreds} from './App';
 import * as serviceWorker from './serviceWorker';
 import logo from './4.png'
 
-
 const logoStyle = { 
-  "margin-left": "1%",
-  "margin-top": "1%",
-  width: 360, 
+  width: 160, 
+  "margin-top" : "2%",
+  "margin-left" : "2%",
   "border-radius": "15px 15px 15px 16px",
 };
-const divStyle = {
-  width: 370, 
-  background: "#ffffff",
-  border: "solid", 
-  "margin-left": "35%",
-  "border-radius": "11px 11px 11px 11px",
-
-  transform: "skew(0deg)"
-};
-
 
 ReactDOM.render(
 
   <React.StrictMode> 
-    <div style ={divStyle}>
-    <img src={logo} alt={"logo"} style = {logoStyle}/> 
-    <h1 style = {logoStyle}>Продажи по карте</h1>
-    </div>
+    <a href="http://client.lo.cards">
+      <img src={logo} alt={"logo"} style = {logoStyle}/>
+    </a>
     <br></br><br></br>
     <InputCreds/>
   </React.StrictMode>,

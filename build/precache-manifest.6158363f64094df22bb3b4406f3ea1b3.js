@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d030a9e66bdfd562972b166e2b60c4e",
+    "revision": "eb46150ccb6897a7e5faf5da1b16b0ed",
     "url": "/LocardsSales/index.html"
   },
   {
-    "revision": "ea11d8de097cea5621f1",
-    "url": "/LocardsSales/static/css/2.b47ae72f.chunk.css"
+    "revision": "5626866389239539964b",
+    "url": "/LocardsSales/static/css/2.368de34c.chunk.css"
   },
   {
-    "revision": "e4619766e41855c1a8da",
-    "url": "/LocardsSales/static/css/main.08d044d5.chunk.css"
+    "revision": "e8b7678d65b43aca0049",
+    "url": "/LocardsSales/static/css/main.d7853ff8.chunk.css"
   },
   {
-    "revision": "ea11d8de097cea5621f1",
-    "url": "/LocardsSales/static/js/2.4ed8986b.chunk.js"
+    "revision": "5626866389239539964b",
+    "url": "/LocardsSales/static/js/2.2951aeb6.chunk.js"
   },
   {
     "revision": "034ff1cd2c8fe2aa2f17700ad534b2a4",
-    "url": "/LocardsSales/static/js/2.4ed8986b.chunk.js.LICENSE.txt"
+    "url": "/LocardsSales/static/js/2.2951aeb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4619766e41855c1a8da",
-    "url": "/LocardsSales/static/js/main.28a14c9b.chunk.js"
+    "revision": "e8b7678d65b43aca0049",
+    "url": "/LocardsSales/static/js/main.d1e00de0.chunk.js"
   },
   {
     "revision": "9fb1e4564075a2bbb7e8",

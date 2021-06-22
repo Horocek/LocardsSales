@@ -45,7 +45,7 @@ class Table extends Component {
           </TableHeaderColumn>
           <TableHeaderColumn dataField='charge'
                              dataAlign='center'
-                             width="100"
+                             width="120"
                              headerAlign="center"
                              thStyle={
                                 {backgroundColor: '#31d3fa'}}>
