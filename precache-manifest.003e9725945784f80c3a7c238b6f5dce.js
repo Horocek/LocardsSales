@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb46150ccb6897a7e5faf5da1b16b0ed",
+    "revision": "8e6d2f97b947c993370714360f10e875",
     "url": "/LocardsSales/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LocardsSales/static/css/2.368de34c.chunk.css"
   },
   {
-    "revision": "e8b7678d65b43aca0049",
-    "url": "/LocardsSales/static/css/main.d7853ff8.chunk.css"
+    "revision": "ef30712cc4883303a4c8",
+    "url": "/LocardsSales/static/css/main.b73df393.chunk.css"
   },
   {
     "revision": "5626866389239539964b",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LocardsSales/static/js/2.2951aeb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8b7678d65b43aca0049",
+    "revision": "ef30712cc4883303a4c8",
     "url": "/LocardsSales/static/js/main.d1e00de0.chunk.js"
   },
   {
