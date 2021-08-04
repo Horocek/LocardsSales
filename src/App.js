@@ -51,10 +51,10 @@ const btStyle ={
     "margin-right" : "1%",
   }
   const tableStyle = { 
-    width: 550,
+    width: 690,
     height: 100,
     background: "#e8f0fe",
-    
+
     "margin-left": "1%",
     "border-radius": "15px 15px 15px 16px",
     "background-color": "#cccccc",

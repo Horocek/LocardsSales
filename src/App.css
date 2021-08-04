@@ -40,7 +40,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 1200px;
+  width: 1340px;
   height: 1900px;
   
 }
@@ -48,7 +48,7 @@
 .saleContainer {
   flex-direction: column;
   display: flex;
-  width: 600px;
+  width: 550px;
   height: 600px;
   background-color:#31d3fa;
   

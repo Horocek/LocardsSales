@@ -16,13 +16,15 @@ const timeConverter = unixTime => {
 }
 
 const salesPars = array => {
+  
   return array.map((item) => {
       return {
           amount: item.amount,
           write: item.bonusesWriteOff,
           charge: item.bonusesCharge,
           date: timeConverter(item.createdAt),
-          isCanceled: item.isCanceled ? "отменена" : "проведена"
+          isCanceled: item.isCanceled ? "отменена" : "проведена",
+          salePoint: item.salePoint !== null ? item.salePoint.name : "без точки"
       } 
   });
 }

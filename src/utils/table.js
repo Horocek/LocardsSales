@@ -61,6 +61,15 @@ class Table extends Component {
             Статус <br></br>
             операции
           </TableHeaderColumn>
+          <TableHeaderColumn dataField='salePoint'
+                             dataAlign='center'
+                             width="140"
+                             headerAlign="center"
+                             thStyle={
+                                {backgroundColor: '#31d3fa'}}>
+            Точка <br></br>
+            продаж
+          </TableHeaderColumn>
         </BootstrapTable>
       </div>
     );
